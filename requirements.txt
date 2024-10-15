@@ -2,4 +2,3 @@ fastapi
 pillow
 uvicorn
 google.generativeai
-dotenv
