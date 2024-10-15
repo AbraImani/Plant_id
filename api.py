@@ -2,7 +2,7 @@ import os
 from fastapi import FastAPI, UploadFile, HTTPException
 from PIL import Image
 import google.generativeai as genai
-from dotenv import load_dotenv, find_dotenv
+# from dotenv import load_dotenv, find_dotenv
 import io
 
 # Charger les variables d'environnement
