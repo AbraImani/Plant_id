@@ -6,10 +6,10 @@ from dotenv import load_dotenv, find_dotenv
 import io
 
 # Charger les variables d'environnement
-load_dotenv(find_dotenv(), override=True)
-
+# load_dotenv(find_dotenv(), override=True)
+GOOGLE_API_KEY = "AIzaSyBetznO_T7Loxri-xr1_Qzi-PTzyFvokpk"
 # Configurer l'API Google Gemini
-genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+genai.configure(api_key=GOOGLE_API_KEY)
 
 app = FastAPI()
 
