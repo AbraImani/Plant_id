@@ -3,3 +3,4 @@ pillow
 uvicorn
 google.generativeai
 python-multipart
+dotenv
